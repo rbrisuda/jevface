@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: customer-support
+
+# Jev credentials are read from the environment, nothing to configure here:
+#   TYPESAFE_API_KEY   your TypeSafe key (https://typesafe.ai)
+#   TYPESAFE_BASE_URL  optional, e.g. http://localhost:8080 for a local Laya server
+# Alternatively set spring.ai.typesafe.api-key (the Spring AI TypeSafe starter property).
+# Without a key the app still starts; POST /tickets then answers 503 with setup instructions.
