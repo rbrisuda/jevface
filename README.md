@@ -56,8 +56,8 @@ typed values and calibrated probabilities. Jevface removes the plumbing:
 
 ## Getting started
 
-> Jevface is not on Maven Central yet. Run `./gradlew publishToMavenLocal` and add `mavenLocal()` to
-> your repositories.
+> Jevface is not on Maven Central. Run `./gradlew publishToMavenLocal` and add `mavenLocal()` to
+> your repositories if you want to try it as real library.
 
 **Spring Boot 4:**
 
@@ -310,12 +310,11 @@ Requires JDK 25 for the build. The published libraries target Java 21.
 TYPESAFE_API_KEY=... ./gradlew liveTest   # tests tagged "live" call the real API
 ```
 
-## Roadmap
+## Possible improvements
 
 - Multi-select questions: `Set<Enum>` as one noul per constant.
 - Action dispatch: let Jev choose which `@Action` method of a bean to invoke.
 - Compile-time validation with an annotation processor.
-- Publishing to Maven Central.
 
 ## License
 
