@@ -1,7 +1,9 @@
-package io.github.rbrisuda.jevface.examples.shopping;
+package io.github.rbrisuda.jevface.examples.shopping.service;
 
 import io.github.rbrisuda.jevface.JevClient;
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.shopping.agent.ProductReview;
+import io.github.rbrisuda.jevface.examples.shopping.agent.Topic;
 
 import java.util.*;
 
@@ -41,7 +43,7 @@ public final class ReviewInsights {
         return new Report(texts.size(), texts.size() - genuine.size(), averageStars, buyAgain, topics, sizeIssues);
     }
 
-    static Optional<String> describe(Report report) {
+    public static Optional<String> describe(Report report) {
         if (report.reviews() == 0) {
             return Optional.empty();
         }

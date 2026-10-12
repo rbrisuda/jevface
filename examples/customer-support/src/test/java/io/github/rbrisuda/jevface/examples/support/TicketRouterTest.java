@@ -3,6 +3,13 @@ package io.github.rbrisuda.jevface.examples.support;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.support.agent.SupportTriage;
+import io.github.rbrisuda.jevface.examples.support.agent.Department;
+import io.github.rbrisuda.jevface.examples.support.agent.Frustration;
+import io.github.rbrisuda.jevface.examples.support.model.Priority;
+import io.github.rbrisuda.jevface.examples.support.agent.Product;
+import io.github.rbrisuda.jevface.examples.support.model.RoutingDecision;
+import io.github.rbrisuda.jevface.examples.support.service.TicketRouter;
 import io.github.rbrisuda.jevface.test.AgentStub;
 import io.github.rbrisuda.jevface.test.StubJudgmentEngine;
 import org.junit.jupiter.api.Test;
@@ -51,7 +58,7 @@ class TicketRouterTest {
 
         RoutingDecision decision = router.route("It does not work");
 
-        assertThat(decision.queue()).isEqualTo(TicketRouter.HUMAN_REVIEW_QUEUE);
+        assertThat(decision.queue()).isEqualTo("human-review");
         assertThat(decision.department()).isEqualTo(Department.TECHNICAL);
         assertThat(decision.notes()).first().asString().startsWith("Routing is uncertain (40% technical)");
     }

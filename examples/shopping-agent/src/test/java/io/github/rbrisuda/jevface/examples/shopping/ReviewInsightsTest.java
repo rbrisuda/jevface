@@ -3,6 +3,9 @@ package io.github.rbrisuda.jevface.examples.shopping;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.shopping.agent.ProductReview;
+import io.github.rbrisuda.jevface.examples.shopping.agent.Topic;
+import io.github.rbrisuda.jevface.examples.shopping.service.ReviewInsights;
 import io.github.rbrisuda.jevface.spi.JudgmentEngine;
 import io.github.rbrisuda.jevface.test.AgentStub;
 import io.github.rbrisuda.jevface.test.StubJudgmentEngine;

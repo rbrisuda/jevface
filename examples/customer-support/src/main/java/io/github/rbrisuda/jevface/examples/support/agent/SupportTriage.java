@@ -1,7 +1,8 @@
-package io.github.rbrisuda.jevface.examples.support;
+package io.github.rbrisuda.jevface.examples.support.agent;
 
 import io.github.rbrisuda.jevface.ChoiceResult;
 import io.github.rbrisuda.jevface.ScoreResult;
+import io.github.rbrisuda.jevface.examples.support.model.Priority;
 import io.github.rbrisuda.jevface.annotation.ChoiceQuestion;
 import io.github.rbrisuda.jevface.annotation.JevAgent;
 import io.github.rbrisuda.jevface.annotation.NoulQuestion;

@@ -1,4 +1,4 @@
-package io.github.rbrisuda.jevface.examples.shopping;
+package io.github.rbrisuda.jevface.examples.shopping.agent;
 
 import io.github.rbrisuda.jevface.annotation.Option;
 

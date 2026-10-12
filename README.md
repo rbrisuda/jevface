@@ -297,7 +297,7 @@ to configure. The same setup works for the plain Java example:
 ```
 
 To try your own questions, edit
-[`SupportTriage`](examples/customer-support/src/main/java/sk/rbr/jevface/examples/support/SupportTriage.java)
+[`SupportTriage`](examples/customer-support/src/main/java/io/github/rbrisuda/jevface/examples/support/agent/SupportTriage.java)
 and restart the app. No other code changes are needed.
 
 ## Building

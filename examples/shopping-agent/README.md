@@ -1,7 +1,7 @@
 # Example: product review insights (plain Java)
 
-Uses Jevface without Spring. [`ProductReview`](src/main/java/sk/rbr/jevface/examples/shopping/ProductReview.java)
-asks five questions about each review. [`ReviewInsights`](src/main/java/sk/rbr/jevface/examples/shopping/ReviewInsights.java)
+Uses Jevface without Spring. [`ProductReview`](src/main/java/io/github/rbrisuda/jevface/examples/shopping/agent/ProductReview.java)
+asks five questions about each review. [`ReviewInsights`](src/main/java/io/github/rbrisuda/jevface/examples/shopping/service/ReviewInsights.java)
 evaluates a batch of reviews, drops suspicious ones and aggregates the rest.
 
 ```bash
