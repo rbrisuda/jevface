@@ -4,9 +4,7 @@ import io.github.rbrisuda.jevface.EvaluationMetadata;
 import io.github.rbrisuda.jevface.JevClient;
 import io.github.rbrisuda.jevface.Jevface;
 import io.github.rbrisuda.jevface.examples.support.agent.SupportTriage;
-import io.github.rbrisuda.jevface.examples.support.model.Department;
-import io.github.rbrisuda.jevface.examples.support.model.Frustration;
-import io.github.rbrisuda.jevface.examples.support.model.Product;
+import io.github.rbrisuda.jevface.examples.support.agent.Department;
 import io.github.rbrisuda.jevface.examples.support.model.RoutingDecision;
 
 import java.util.ArrayList;

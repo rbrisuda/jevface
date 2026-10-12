@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.rbrisuda.jevface.Jevface;
 import io.github.rbrisuda.jevface.examples.support.agent.SupportTriage;
-import io.github.rbrisuda.jevface.examples.support.model.Department;
-import io.github.rbrisuda.jevface.examples.support.model.Frustration;
+import io.github.rbrisuda.jevface.examples.support.agent.Department;
+import io.github.rbrisuda.jevface.examples.support.agent.Frustration;
 import io.github.rbrisuda.jevface.examples.support.model.Priority;
-import io.github.rbrisuda.jevface.examples.support.model.Product;
+import io.github.rbrisuda.jevface.examples.support.agent.Product;
 import io.github.rbrisuda.jevface.examples.support.model.RoutingDecision;
 import io.github.rbrisuda.jevface.examples.support.service.TicketRouter;
 import io.github.rbrisuda.jevface.test.AgentStub;
