@@ -4,6 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.rbrisuda.jevface.AgentDescriptor;
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.support.agent.SupportTriage;
+import io.github.rbrisuda.jevface.examples.support.model.Department;
+import io.github.rbrisuda.jevface.examples.support.model.Frustration;
+import io.github.rbrisuda.jevface.examples.support.model.Product;
 import io.github.rbrisuda.jevface.spi.ChoiceSpec;
 import io.github.rbrisuda.jevface.spi.ScoreSpec;
 import org.junit.jupiter.api.Test;

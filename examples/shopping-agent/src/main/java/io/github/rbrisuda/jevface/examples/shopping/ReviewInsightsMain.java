@@ -1,6 +1,7 @@
 package io.github.rbrisuda.jevface.examples.shopping;
 
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.shopping.service.ReviewInsights;
 import io.github.rbrisuda.jevface.typesafe.TypeSafeJudgmentEngine;
 import java.util.List;
 

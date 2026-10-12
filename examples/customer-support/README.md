@@ -1,7 +1,7 @@
 # Example: customer support routing (Spring Boot)
 
-A help desk that routes incoming tickets using the [`SupportTriage`](src/main/java/sk/rbr/jevface/examples/support/SupportTriage.java)
-Jev agent. [`TicketRouter`](src/main/java/sk/rbr/jevface/examples/support/TicketRouter.java) contains the
+A help desk that routes incoming tickets using the [`SupportTriage`](src/main/java/io/github/rbrisuda/jevface/examples/support/agent/SupportTriage.java)
+Jev agent. [`TicketRouter`](src/main/java/io/github/rbrisuda/jevface/examples/support/service/TicketRouter.java) contains the
 business rules; it has no prompts and no JSON.
 
 ```bash

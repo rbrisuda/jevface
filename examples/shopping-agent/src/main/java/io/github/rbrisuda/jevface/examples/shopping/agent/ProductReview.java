@@ -1,5 +1,6 @@
-package io.github.rbrisuda.jevface.examples.shopping;
+package io.github.rbrisuda.jevface.examples.shopping.agent;
 
+import io.github.rbrisuda.jevface.examples.shopping.model.Topic;
 import io.github.rbrisuda.jevface.NoulResult;
 import io.github.rbrisuda.jevface.annotation.ChoiceQuestion;
 import io.github.rbrisuda.jevface.annotation.JevAgent;

@@ -1,4 +1,4 @@
-package io.github.rbrisuda.jevface.examples.support;
+package io.github.rbrisuda.jevface.examples.support.model;
 
 import io.github.rbrisuda.jevface.annotation.Option;
 

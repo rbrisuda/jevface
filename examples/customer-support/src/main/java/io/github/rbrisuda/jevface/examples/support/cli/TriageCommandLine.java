@@ -1,6 +1,7 @@
-package io.github.rbrisuda.jevface.examples.support;
+package io.github.rbrisuda.jevface.examples.support.cli;
 
 import io.github.rbrisuda.jevface.JevEvaluationException;
+import io.github.rbrisuda.jevface.examples.support.service.TicketRouter;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;

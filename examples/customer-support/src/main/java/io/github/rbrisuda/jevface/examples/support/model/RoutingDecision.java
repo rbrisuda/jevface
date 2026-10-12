@@ -1,4 +1,4 @@
-package io.github.rbrisuda.jevface.examples.support;
+package io.github.rbrisuda.jevface.examples.support.model;
 
 import java.util.List;
 import org.jspecify.annotations.Nullable;

@@ -1,7 +1,9 @@
-package io.github.rbrisuda.jevface.examples.shopping;
+package io.github.rbrisuda.jevface.examples.shopping.service;
 
 import io.github.rbrisuda.jevface.JevClient;
 import io.github.rbrisuda.jevface.Jevface;
+import io.github.rbrisuda.jevface.examples.shopping.agent.ProductReview;
+import io.github.rbrisuda.jevface.examples.shopping.model.Topic;
 
 import java.util.*;
 

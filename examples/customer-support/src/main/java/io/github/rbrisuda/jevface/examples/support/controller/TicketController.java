@@ -1,5 +1,8 @@
-package io.github.rbrisuda.jevface.examples.support;
+package io.github.rbrisuda.jevface.examples.support.controller;
 
+import io.github.rbrisuda.jevface.examples.support.model.RoutingDecision;
+import io.github.rbrisuda.jevface.examples.support.model.Ticket;
+import io.github.rbrisuda.jevface.examples.support.service.TicketRouter;
 import io.github.rbrisuda.jevface.JevEvaluationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
@@ -10,8 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class TicketController {
-
-    record Ticket(String message) {}
 
     private final TicketRouter router;
 

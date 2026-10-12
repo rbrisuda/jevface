@@ -3,6 +3,10 @@ package io.github.rbrisuda.jevface.examples.support;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.rbrisuda.jevface.test.StubJudgmentEngine;
+import io.github.rbrisuda.jevface.examples.support.agent.SupportTriage;
+import io.github.rbrisuda.jevface.examples.support.model.Department;
+import io.github.rbrisuda.jevface.examples.support.model.Frustration;
+import io.github.rbrisuda.jevface.examples.support.model.Product;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
