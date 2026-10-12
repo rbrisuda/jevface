@@ -43,7 +43,7 @@ public final class ReviewInsights {
         return new Report(texts.size(), texts.size() - genuine.size(), averageStars, buyAgain, topics, sizeIssues);
     }
 
-    static Optional<String> describe(Report report) {
+    public static Optional<String> describe(Report report) {
         if (report.reviews() == 0) {
             return Optional.empty();
         }

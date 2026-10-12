@@ -58,7 +58,7 @@ class TicketRouterTest {
 
         RoutingDecision decision = router.route("It does not work");
 
-        assertThat(decision.queue()).isEqualTo(TicketRouter.HUMAN_REVIEW_QUEUE);
+        assertThat(decision.queue()).isEqualTo("human-review");
         assertThat(decision.department()).isEqualTo(Department.TECHNICAL);
         assertThat(decision.notes()).first().asString().startsWith("Routing is uncertain (40% technical)");
     }
